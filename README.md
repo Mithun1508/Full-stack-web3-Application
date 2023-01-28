@@ -8,6 +8,20 @@ This template extends from the Greeter contract template by building an applicat
 
 2)Solidity, Hardhat, and thirdweb deploy to develop, test, and deploy our smart contract.
 
+# Getting Started
+
+Create a project using this example:
+
+```bash
+npx create-tw-app --example next-javascript-starter
+```
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+On `pages/_app.js`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our hooks to work.
+
+on `pages/index.js`, you'll find the `useMetamask` hook that we use to connect the user's wallet to MetaMask, `useDisconnect` that we use to disconnect it, and `useAddress` to check the user's wallet address once connected. 
+
 
 
 # Run the Application:
@@ -23,7 +37,7 @@ npm run dev
 Visit the application at http://localhost:3000/.
 
 
-How to use this template
+# How to use this template
 This template has two components:
 
 1) The smart contract development in the contract folder.
@@ -72,3 +86,13 @@ To perform a "write" operation (a transaction on the blockchain), we need to hav
 
 To connect a user's wallet, we use one of thirdweb's wallet connection hooks. The SDK automatically detects the connected wallet and uses it to sign transactions. This works because our application is wrapped in the ThirdwebProvider, as seen in the _app.js file.
 
+#References
+- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
+
+- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
+
+- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+ 
+-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev)

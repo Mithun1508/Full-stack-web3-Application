@@ -86,6 +86,9 @@ To perform a "write" operation (a transaction on the blockchain), we need to hav
 
 To connect a user's wallet, we use one of thirdweb's wallet connection hooks. The SDK automatically detects the connected wallet and uses it to sign transactions. This works because our application is wrapped in the ThirdwebProvider, as seen in the _app.js file.
 
+![Screenshot (86)](https://user-images.githubusercontent.com/93249038/215242402-8555bf17-dc04-46a4-8f52-da07d9399e91.png)
+
+
 #References
 - [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
 
